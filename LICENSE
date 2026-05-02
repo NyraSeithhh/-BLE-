@@ -1,0 +1,28 @@
+MIT License
+
+Copyright (c) 2026 Nyra (@lyrawuuu on GitHub — https://github.com/lyrawuuu)
+
+This repository contains a reverse-engineered specification of the Jissbon
+"Master Remote Vibrator" Bluetooth Low Energy protocol, derived from clean-
+room analysis of an iOS sysdiagnose Bluetooth HCI capture. The author —
+**Nyra** (@lyrawuuu on GitHub) — is the sole reverse engineer of the protocol documented herein.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software, documentation, and associated files (the "Materials"), to
+deal in the Materials without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Materials, and to permit persons to whom the Materials
+are furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Materials, including any code,
+documentation, or derivative works (translations, ports, extensions) that
+re-use the protocol specification, decoded captures, or reference
+implementation contained in this repository.
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.

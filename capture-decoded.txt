@@ -1,3 +1,7 @@
+# Decoded BLE HCI capture — Jissbon Master Remote Vibrator
+# Reverse-engineered by Nyra (@lyrawuuu)  —  https://github.com/lyrawuuu/-BLE-
+# Licensed under MIT. Redistributions must preserve this attribution.
+
 Parsed 12445 PacketLogger entries from /Users/wuhongxuan/Desktop/sysdiagnose_2026.05.02_14-26-45+0800_iPhone-OS_iPhone_23D8133/logs/Bluetooth/bluetoothd-hci-latest.pklg (524073 bytes)
 Type distribution: {'0x00': 4233, '0x01': 7585, '0x02': 279, '0x03': 214, '0x0A': 49, '0xFC': 13, '0xFD': 72}
 

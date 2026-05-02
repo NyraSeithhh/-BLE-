@@ -1,5 +1,9 @@
 # Jissbon "Master Remote Vibrator" — Reverse-Engineered BLE Protocol
 
+> **Reverse engineered, captured, decoded, and documented by Nyra ([@lyrawuuu](https://github.com/lyrawuuu))** ·
+> Source: [github.com/lyrawuuu/-BLE-](https://github.com/lyrawuuu/-BLE-) ·
+> License: MIT (see [LICENSE](LICENSE)) — **free to use; redistributions, derivative works, translations, and ports must preserve attribution to Nyra (@lyrawuuu)**.
+
 This document describes the BLE wire protocol for the Jissbon (杰士邦) **"Master Remote Vibrator"** — the toy controlled by the **杰士邦情趣星球** mini-program / official iOS app. The toy has three independent motors:
 
 | Motor      | Chinese | English   |
@@ -173,3 +177,19 @@ The controller maintains the cumulative `(suck, pat, vibe)` state internally so 
 If you are showing this to an AI to write your own control code in a different language or stack:
 
 > "Below is the reverse-engineered BLE protocol for a Jissbon Master Remote Vibrator toy. Using only the spec in `PROTOCOL.md`, write me a `<your_language_or_framework>` controller that connects to the toy by Local Name, exposes per-motor intensity setters (0..100 each), and includes a stop function. Treat `PROTOCOL.md` §1–§5 as authoritative and ignore §6 unless I ask. Reference the example frames in §3 to validate your encoding before returning the code."
+
+---
+
+## 9. 引用 / Attribution
+
+如果你基于这份规格做了任何东西——给自己的玩具写控制脚本、翻译成另一种语言、移植到 ESP32 / 树莓派 / 浏览器、写成博客文章、收进合集——**请保留对原作者的署名**：
+
+- **作者 / Author:** **Nyra**
+- **GitHub:** [@lyrawuuu](https://github.com/lyrawuuu)
+- **来源 / Source:** [github.com/lyrawuuu/-BLE-](https://github.com/lyrawuuu/-BLE-)
+
+最低要求 / minimum:
+
+> Original BLE protocol reverse-engineered by **Nyra** ([@lyrawuuu](https://github.com/lyrawuuu)) — source: <https://github.com/lyrawuuu/-BLE->
+
+把这一行放在你的代码顶部、文档说明里、或文章致谢处的显著位置，并附带 MIT `LICENSE` 文件即可视为合规。Free to use, free to modify, free to share — just don't strip the name.
