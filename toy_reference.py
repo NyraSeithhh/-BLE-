@@ -1,11 +1,7 @@
 """
 Jissbon "Master Remote Vibrator" BLE control library.
 
-Reverse engineered and authored by Nyra (@lyrawuuu on GitHub).
-Source:  https://github.com/lyrawuuu/-BLE-
-License: MIT — see LICENSE in the repository root. Redistributions,
-derivative works, translations, and ports must preserve this attribution
-to Nyra (@lyrawuuu).
+By Nyra (@NyraSeithhh) — github.com/NyraSeithhh/-BLE- — MIT.
 
 Three independent motors (cumulative state — set_X(level) keeps the other two):
   - suction   (吮吸):   0..100   -> motor_A, byte[3] of frame
