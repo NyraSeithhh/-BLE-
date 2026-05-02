@@ -1,0 +1,181 @@
+Parsed 12445 PacketLogger entries from /Users/wuhongxuan/Desktop/sysdiagnose_2026.05.02_14-26-45+0800_iPhone-OS_iPhone_23D8133/logs/Bluetooth/bluetoothd-hci-latest.pklg (524073 bytes)
+Type distribution: {'0x00': 4233, '0x01': 7585, '0x02': 279, '0x03': 214, '0x0A': 49, '0xFC': 13, '0xFD': 72}
+
+Discovered characteristic handle->UUID map:
+  handle 0x0003 -> 0xFFE1
+  handle 0x0006 -> 0xFFE2
+  handle 0x0008 -> 0x2A05
+  handle 0x000D -> 0x2A50
+  handle 0x0010 -> 0x2A07
+  handle 0x0013 -> 4F860001-943B-49EF-BED4-2F730304427A
+  handle 0x0016 -> 4F860002-943B-49EF-BED4-2F730304427A
+  handle 0x0019 -> 4F860003-943B-49EF-BED4-2F730304427A
+  handle 0x001C -> 4F860004-943B-49EF-BED4-2F730304427A
+  handle 0x001F -> 4F860006-943B-49EF-BED4-2F730304427A
+  handle 0x0023 -> 6AA50001-6352-4D57-A7B4-003A416FBB0B
+  handle 0x0025 -> 6AA50002-6352-4D57-A7B4-003A416FBB0B
+  handle 0x0027 -> 6AA50003-6352-4D57-A7B4-003A416FBB0B
+  handle 0x0029 -> 6AA50005-6352-4D57-A7B4-003A416FBB0B
+  handle 0x002B -> 6AA50006-6352-4D57-A7B4-003A416FBB0B
+  handle 0x002D -> 6AA50007-6352-4D57-A7B4-003A416FBB0B
+  handle 0x002F -> 6AA50008-6352-4D57-A7B4-003A416FBB0B
+  handle 0x0031 -> 6AA50009-6352-4D57-A7B4-003A416FBB0B
+  handle 0x0033 -> 6AA5000A-6352-4D57-A7B4-003A416FBB0B
+  handle 0x0036 -> 94110001-6D9B-4225-A4F1-6A4A7F01B0DE
+
+Write operations: 119
+  handle 0x0004 (UUID ?): 2 writes  {'REQ': 2}
+  handle 0x0006 (UUID 0xFFE2): 102 writes  {'REQ': 102}
+  handle 0x0009 (UUID ?): 2 writes  {'REQ': 2}
+  handle 0x0016 (UUID 4F860002-943B-49EF-BED4-2F730304427A): 7 writes  {'REQ': 7}
+  handle 0x0017 (UUID ?): 1 writes  {'REQ': 1}
+  handle 0x001A (UUID ?): 1 writes  {'REQ': 1}
+  handle 0x001D (UUID ?): 1 writes  {'REQ': 1}
+  handle 0x0020 (UUID ?): 1 writes  {'REQ': 1}
+  handle 0x0036 (UUID 94110001-6D9B-4225-A4F1-6A4A7F01B0DE): 1 writes  {'REQ': 1}
+  handle 0x0037 (UUID ?): 1 writes  {'REQ': 1}
+
+Notification packets: 19
+  handle 0x0003 (UUID 0xFFE1): 19 notifications
+
+=== All Write operations (chronological) ===
+  [+  0.000s] WRITE_REQ handle=0x0009 uuid=         ?  value=0200  (2B)
+  [+  0.088s] WRITE_REQ handle=0x0009 uuid=         ?  value=0200  (2B)
+  [+ 15.327s] WRITE_REQ handle=0x0017 uuid=         ?  value=0200  (2B)
+  [+ 15.447s] WRITE_REQ handle=0x001A uuid=         ?  value=0200  (2B)
+  [+ 15.567s] WRITE_REQ handle=0x001D uuid=         ?  value=0200  (2B)
+  [+ 15.687s] WRITE_REQ handle=0x0020 uuid=         ?  value=0200  (2B)
+  [+ 15.747s] WRITE_REQ handle=0x0016 uuid=4F860002-943B-49EF-BED4-2F730304427A  value=010902  (3B)
+  [+ 15.897s] WRITE_REQ handle=0x0016 uuid=4F860002-943B-49EF-BED4-2F730304427A  value=0108028271B41FBA000000  (11B)
+  [+ 16.020s] WRITE_REQ handle=0x0037 uuid=         ?  value=0200  (2B)
+  [+ 16.078s] WRITE_REQ handle=0x0016 uuid=4F860002-943B-49EF-BED4-2F730304427A  value=010602  (3B)
+  [+ 16.139s] WRITE_REQ handle=0x0016 uuid=4F860002-943B-49EF-BED4-2F730304427A  value=010302C003  (5B)
+  [+ 16.197s] WRITE_REQ handle=0x0036 uuid=94110001-6D9B-4225-A4F1-6A4A7F01B0DE  value=01000000000001  (7B)
+  [+ 16.257s] WRITE_REQ handle=0x0016 uuid=4F860002-943B-49EF-BED4-2F730304427A  value=012702  (3B)
+  [+ 16.318s] WRITE_REQ handle=0x0016 uuid=4F860002-943B-49EF-BED4-2F730304427A  value=01070202  (4B)
+  [+ 16.378s] WRITE_REQ handle=0x0016 uuid=4F860002-943B-49EF-BED4-2F730304427A  value=010502738B050040470100  (11B)
+  [+148.408s] WRITE_REQ handle=0x0004 uuid=         ?  value=0100  (2B)
+  [+148.466s] WRITE_REQ handle=0x0004 uuid=         ?  value=0100  (2B)
+  [+149.993s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+150.206s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550B  (2B)
+  [+150.834s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000000  (6B)
+  [+151.049s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=55030700003A  (6B)
+  [+151.175s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000041  (6B)
+  [+151.526s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000045  (6B)
+  [+151.586s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=55030700004E  (6B)
+  [+151.646s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=55030700005D  (6B)
+  [+151.708s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000064  (6B)
+  [+151.997s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+153.683s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000060  (6B)
+  [+153.926s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=55030700005B  (6B)
+  [+153.986s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000057  (6B)
+  [+154.046s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+154.107s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000053  (6B)
+  [+154.175s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000051  (6B)
+  [+154.301s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000050  (6B)
+  [+154.646s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=55030700004E  (6B)
+  [+154.708s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=55030700004B  (6B)
+  [+154.766s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000046  (6B)
+  [+154.826s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000043  (6B)
+  [+154.929s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=55030700003E  (6B)
+  [+155.057s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=55030700003A  (6B)
+  [+155.396s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000039  (6B)
+  [+155.559s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000036  (6B)
+  [+155.876s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000034  (6B)
+  [+155.936s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=55030700002F  (6B)
+  [+155.998s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=55030700002A  (6B)
+  [+156.056s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+156.116s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000029  (6B)
+  [+156.180s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000027  (6B)
+  [+156.314s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000024  (6B)
+  [+156.656s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=55030700001F  (6B)
+  [+156.717s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=55030700001D  (6B)
+  [+156.811s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000019  (6B)
+  [+156.935s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000010  (6B)
+  [+157.286s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000000  (6B)
+  [+157.999s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+159.998s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+161.185s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5503073C0000  (6B)
+  [+161.308s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307490000  (6B)
+  [+161.435s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307560000  (6B)
+  [+161.786s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307640000  (6B)
+  [+161.998s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+162.811s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307620000  (6B)
+  [+163.017s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5503075F0000  (6B)
+  [+163.076s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5503075E0000  (6B)
+  [+163.309s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5503075D0000  (6B)
+  [+163.811s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5503075B0000  (6B)
+  [+163.976s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307510000  (6B)
+  [+164.036s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+164.096s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5503074C0000  (6B)
+  [+164.186s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307470000  (6B)
+  [+164.305s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307440000  (6B)
+  [+164.666s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307430000  (6B)
+  [+164.935s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307410000  (6B)
+  [+165.146s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5503073A0000  (6B)
+  [+165.208s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307350000  (6B)
+  [+165.311s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307320000  (6B)
+  [+165.436s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307300000  (6B)
+  [+165.776s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5503072F0000  (6B)
+  [+165.836s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5503072E0000  (6B)
+  [+165.936s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5503072D0000  (6B)
+  [+165.996s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+166.059s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307260000  (6B)
+  [+166.186s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307210000  (6B)
+  [+166.526s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5503071F0000  (6B)
+  [+166.586s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5503071D0000  (6B)
+  [+166.646s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307190000  (6B)
+  [+166.736s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307170000  (6B)
+  [+166.809s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307140000  (6B)
+  [+166.936s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5503070F0000  (6B)
+  [+167.276s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000000  (6B)
+  [+167.997s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+169.998s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+171.937s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307004C00  (6B)
+  [+172.318s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+172.376s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307006400  (6B)
+  [+173.311s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307005500  (6B)
+  [+173.518s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307004E00  (6B)
+  [+173.576s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307004C00  (6B)
+  [+173.999s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+174.307s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307004500  (6B)
+  [+174.476s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307003A00  (6B)
+  [+174.560s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307003200  (6B)
+  [+174.689s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307003100  (6B)
+  [+175.018s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307003200  (6B)
+  [+175.183s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307003100  (6B)
+  [+175.498s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307002B00  (6B)
+  [+175.556s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307002000  (6B)
+  [+175.617s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307001D00  (6B)
+  [+175.997s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+176.183s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307001C00  (6B)
+  [+176.546s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307001B00  (6B)
+  [+176.608s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307001600  (6B)
+  [+176.685s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307001000  (6B)
+  [+176.809s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=550307000000  (6B)
+  [+178.000s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+180.002s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+182.022s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+184.037s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+  [+186.037s] WRITE_REQ handle=0x0006 uuid=    0xFFE2  value=5500  (2B)
+
+=== Notifications (chronological, first 80) ===
+  [+  0.000s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020053  (6B)
+  [+  1.980s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020052  (6B)
+  [+  3.900s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020052  (6B)
+  [+  5.910s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020052  (6B)
+  [+  7.890s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020052  (6B)
+  [+  9.990s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020051  (6B)
+  [+ 12.060s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020051  (6B)
+  [+ 13.890s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020051  (6B)
+  [+ 15.840s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020050  (6B)
+  [+ 17.910s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020050  (6B)
+  [+ 20.010s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020050  (6B)
+  [+ 22.170s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020050  (6B)
+  [+ 23.850s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020050  (6B)
+  [+ 25.920s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020050  (6B)
+  [+ 28.050s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020050  (6B)
+  [+ 30.120s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020050  (6B)
+  [+ 31.890s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020050  (6B)
+  [+ 33.960s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020050  (6B)
+  [+ 36.060s] NOTIFY     handle=0x0003 uuid=    0xFFE1  value=558007020052  (6B)
